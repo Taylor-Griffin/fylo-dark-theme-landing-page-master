@@ -1,4 +1,382 @@
+ body{
+  margin:0;
+  padding:0;
+  background: linear-gradient(to bottom,hsl(217, 28%, 15%) 0%,hsl(217, 28%, 15%) 0 10%,
+  hsl(218, 28%, 13%)0 10%, hsl(218, 28%, 13%)0 77%, hsl(216, 53%, 9%)0 77%, hsl(216, 53%, 9%)0 100%);
+  background-repeat: no-repeat;
+}
 
 
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/* -----------Mobile Design------------ */
+
+
+
+
+
+h1,h2,h3,p{
+font-family:'Raleway', sans-serif;
+color:white;
+padding-left: 2rem;
+padding-right: 2rem;
+text-align: center;
+
+}
+
+* p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5rem;
+  }
+
+h1{
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+
+li{
+  color:white;
+  list-style: none;
+}
+
+* a{text-decoration: none;
+   color:white;}
+
+
+
+/*---navbar---*/
+
+
+
+
+.logo{
+  width:50%;
+  padding: 0;
+  margin-right:auto;
+
+
+
+
+
+}
+
+ .nav-links{
+  display:flex;
+  margin-top: 2rem;
+
+
+
+
+
+}
+
+.nav-item{
+  align-self: center;
+  margin-right:.5rem;
+  font-family:Raleway;
+  font-size: .8rem;
+  font-weight: 200;
+  color:white;
+  }
+
+  #sign-in{
+    /* margin-right: 1rem; */
+}
+
+.nav-item a:hover{
+  color:hsl(176, 68%, 64%);
+}
+
+
+  /* ----Intro---- */
+  .intro{
+    background-image: url(images/bg-curvy-mobile.svg);
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:50rem;
+    background-position: 35% 75%;
+  }
+
+
+  .intro img{
+    display: block;
+    width:70%;
+    padding:3rem;
+    margin-left: 2rem;
+  }
+
+  .started-btn{
+    width:17rem;
+    font-size: 1rem;
+    background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%) );
+    color:white;
+    padding:1.5rem 2rem;
+    border-style: none;
+    border-radius: 90px;
+    margin:2rem auto 0 auto;
+    display:block;
+  }
+/* ------Main Section------- */
+
+
+
+  .main img{
+    display: block;
+    margin:10rem auto 0 auto;
+  }
+
+  .main h1{
+    margin-top:3rem;
+  }
+
+  .productive-img{
+    width:80%;
+    margin-bottom:2rem;
+  }
+
+
+  #works{
+    color:hsl(176, 68%, 64%);
+    font-family: Raleway,sans-serif;
+    margin-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2rem;
+    text-decoration: none;
+
+
+  }
+
+  #arrow{
+    display:inline;
+    width:1.5rem;
+    position: relative;
+    top:.4rem;
+    left:.3rem;
+
+  }
+
+  hr{
+  width:10rem;
+  margin-left: 1.8rem;
+  border-color:hsl(176, 68%, 64%);
+  }
+
+  #never{
+    text-align: left;
+  }
+
+
+
+  /* -----Testimonials------ */
+  .testimonials{
+    display:flex;
+    flex-direction: column;
+
+
+
+
+  }
+  .card{
+    flex:auto;
+    margin:5rem auto 0 auto;
+    background-color: hsl(219, 30%, 18%);
+    width:75%;
+    padding:1rem 2rem 1rem 2rem;
+    border-radius:10px;
+
+  }
+
+  #patel{
+    position:relative;
+    margin-top: 15rem;
+
+  }
+
+
+  .card p{
+    font-size: .8rem;
+    text-align: left;
+    margin: 0rem auto 1rem auto;
+    padding:1rem 0 1rem 0;
+    line-height: 1.5rem;
+  }
+
+  #quotes{
+    position:absolute;
+    top:-3rem;
+    right:27rem;
+  }
+
+  .test-pic{
+    width:3rem;
+    float:left;
+    border-radius: 90px;
+    margin-right: 1rem;
+
+  }
+
+  .card h2,h3{
+    text-align: left;
+    margin-bottom:.3rem;
+    margin-top: .5rem;
+
+  }
+
+  .card h2{
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+
+  }
+
+  .card h3{
+    font-size: .8rem;
+    font-weight: 200;
+  }
+
+/* -------CTA-------- */
+
+.cta{
+  /* display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  margin:10rem auto 0 auto;
+  padding:3rem;
+  background-color:hsl(219, 30%, 18%);
+  width:65%;
+  border-radius: 10px;
+
+}
+
+.cta h1{
+  font-size: 1.4rem;
+  padding:0;
+}
+
+.cta p{
+  font-size:1rem;
+  padding:0;
+  line-height: 1.6rem;
+  width:100%;
+}
+
+.bottom-btn{
+  margin-right: 2rem;
+  padding-top:1rem;
+  padding-bottom: 1rem;
+
+}
+
+.email-btn{
+  width:17rem;
+  font-size: 1rem;
+  text-align: left;
+  background-color: white;
+  color:lightgrey;
+  padding:1rem 2rem;
+  border-style: none;
+  border-radius: 90px;
+  margin:2rem auto 0 auto;
+  display:block;
+}
+
+.bottom-logo{
+  display: block;
+  margin:8rem auto 0 3rem;
+}
+
+/* -----Footer------ */
+
+.info p{
+  text-align: left;
+  width:70%;
+  margin-left: 3rem;
+  font-size: 1.4rem;
+}
+
+.bottom-logo{
+  width:12rem;
+}
+
+.cta-icon{
+  display:block;
+  float: left;
+  position:relative;
+  top:.5rem;
+  left:2rem;
+}
+
+.location{
+  position: relative;
+  top:1.9rem;
+}
+
+.info{
+  margin-bottom:8rem;
+}
+
+.about{
+  font-family: Raleway,sans-serif;
+  font-size: 1.6rem;
+
+}
+
+.about li{
+  margin-top: 2rem;
+}
+
+.about-bottom{
+  margin-top:5rem;
+  margin-bottom: 5rem;
+
+}
+
+.social-icons{
+  color:white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+ .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(176, 68%, 64%); }
+
+  /* ---------Desktop Design--------- */
+
+  @media only screen and (min-width:600px){
+    .logo{
+
+
+
+
+
+
+    }
+
+     .nav-links{
+      display:flex;
+      justify-content: space-around;
+
+
+
+
+
+
+
+
+    }
+
+    .nav-item{
+    flex:1 0;
+
+
+    }
+
+    .nav-item a{
+
+
+    }
+  }
