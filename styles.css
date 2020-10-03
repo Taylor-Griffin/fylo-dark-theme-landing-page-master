@@ -1,22 +1,13 @@
- body{
-  margin:0;
-  padding:0;
-  background: linear-gradient(to bottom,hsl(217, 28%, 15%) 0%,hsl(217, 28%, 15%) 0 10%,
-  hsl(218, 28%, 13%)0 10%, hsl(218, 28%, 13%)0 77%, hsl(216, 53%, 9%)0 77%, hsl(216, 53%, 9%)0 100%);
-  background-repeat: no-repeat;
+body{
+ margin:0;
+ padding:0;
+ background: linear-gradient(to bottom,hsl(217, 28%, 15%) 0%,hsl(217, 28%, 15%) 0 12%,
+ hsl(218, 28%, 13%)0 14%, hsl(218, 28%, 13%)0 77%, hsl(216, 53%, 9%)0 77%, hsl(216, 53%, 9%)0 100%);
+ background-repeat: no-repeat;
+
 }
 
-
-
-
-
-/* -----------Mobile Design------------ */
-
-
-
-
-
-h1,h2,h3,p{
+h1,h2,h3,h4,p{
 font-family:'Raleway', sans-serif;
 color:white;
 padding-left: 2rem;
@@ -31,352 +22,319 @@ text-align: center;
   line-height: 1.5rem;
   }
 
-h1{
-  font-size: 1.6rem;
-  line-height: 2.5rem;
+  h1{
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  h2{
+    font-size: 1.1rem;
+  }
+
+  a{
+    color:white;
+    text-decoration: none;
+    font-size: .8rem;
+    font-family: "Raleway", sans-serif;
+  }
+
+  a:hover{
+   color:hsl(176, 68%, 64%);
+ }
+
+
+/* --------Header---------- */
+.logo{
+  width:80px;
+
+}
+
+
+header{
+  height:2rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+ul{
+  color:white;
+  list-style: none;
+
 }
 
 li{
-  color:white;
-  list-style: none;
-}
-
-* a{text-decoration: none;
-   color:white;}
-
-
-
-/*---navbar---*/
-
-
-
-
-.logo{
-  width:50%;
-  padding: 0;
-  margin-right:auto;
-
-
-
-
+  display:inline-block;
+  padding:.5rem;
 
 }
 
- .nav-links{
-  display:flex;
-  margin-top: 2rem;
 
 
 
 
+/* ------Intro--------- */
+.intro{
+  background-image: url(images/bg-curvy-mobile.svg);
 
-}
-
-.nav-item{
-  align-self: center;
-  margin-right:.5rem;
-  font-family:Raleway;
-  font-size: .8rem;
-  font-weight: 200;
-  color:white;
-  }
-
-  #sign-in{
-    /* margin-right: 1rem; */
-}
-
-.nav-item a:hover{
-  color:hsl(176, 68%, 64%);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size:50rem;
+  background-position: 65% 40%;
 }
 
 
-  /* ----Intro---- */
-  .intro{
-    background-image: url(images/bg-curvy-mobile.svg);
-
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size:50rem;
-    background-position: 35% 75%;
-  }
-
-
-  .intro img{
-    display: block;
-    width:70%;
-    padding:3rem;
-    margin-left: 2rem;
-  }
-
-  .started-btn{
-    width:17rem;
-    font-size: 1rem;
-    background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%) );
-    color:white;
-    padding:1.5rem 2rem;
-    border-style: none;
-    border-radius: 90px;
-    margin:2rem auto 0 auto;
-    display:block;
-  }
-/* ------Main Section------- */
-
-
-
-  .main img{
-    display: block;
-    margin:10rem auto 0 auto;
-  }
-
-  .main h1{
-    margin-top:3rem;
-  }
-
-  .productive-img{
-    width:80%;
-    margin-bottom:2rem;
-  }
-
-
-  #works{
-    color:hsl(176, 68%, 64%);
-    font-family: Raleway,sans-serif;
-    margin-left: 2rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 2rem;
-    text-decoration: none;
-
-
-  }
-
-  #arrow{
-    display:inline;
-    width:1.5rem;
-    position: relative;
-    top:.4rem;
-    left:.3rem;
-
-  }
-
-  hr{
-  width:10rem;
-  margin-left: 1.8rem;
-  border-color:hsl(176, 68%, 64%);
-  }
-
-  #never{
-    text-align: left;
-  }
-
-
-
-  /* -----Testimonials------ */
-  .testimonials{
-    display:flex;
-    flex-direction: column;
-
-
-
-
-  }
-  .card{
-    flex:auto;
-    margin:5rem auto 0 auto;
-    background-color: hsl(219, 30%, 18%);
-    width:75%;
-    padding:1rem 2rem 1rem 2rem;
-    border-radius:10px;
-
-  }
-
-  #patel{
-    position:relative;
-    margin-top: 15rem;
-
-  }
-
-
-  .card p{
-    font-size: .8rem;
-    text-align: left;
-    margin: 0rem auto 1rem auto;
-    padding:1rem 0 1rem 0;
-    line-height: 1.5rem;
-  }
-
-  #quotes{
-    position:absolute;
-    top:-3rem;
-    right:27rem;
-  }
-
-  .test-pic{
-    width:3rem;
-    float:left;
-    border-radius: 90px;
-    margin-right: 1rem;
-
-  }
-
-  .card h2,h3{
-    text-align: left;
-    margin-bottom:.3rem;
-    margin-top: .5rem;
-
-  }
-
-  .card h2{
-    font-size: 1.2rem;
-    letter-spacing: .1rem;
-
-  }
-
-  .card h3{
-    font-size: .8rem;
-    font-weight: 200;
-  }
-
-/* -------CTA-------- */
-
-.cta{
-  /* display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-  margin:10rem auto 0 auto;
-  padding:3rem;
-  background-color:hsl(219, 30%, 18%);
-  width:65%;
-  border-radius: 10px;
+.intro img{
+  display: block;
+  width:80%;
+  padding:1rem;
 
 }
 
-.cta h1{
-  font-size: 1.4rem;
-  padding:0;
-}
-
-.cta p{
-  font-size:1rem;
-  padding:0;
-  line-height: 1.6rem;
-  width:100%;
-}
-
-.bottom-btn{
-  margin-right: 2rem;
-  padding-top:1rem;
-  padding-bottom: 1rem;
-
-}
-
-.email-btn{
-  width:17rem;
+.started-btn{
+  width:16rem;
   font-size: 1rem;
-  text-align: left;
-  background-color: white;
-  color:lightgrey;
-  padding:1rem 2rem;
+  background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%) );
+  color:white;
+  padding: 1rem;
   border-style: none;
-  border-radius: 90px;
+  border-radius: 40px;
   margin:2rem auto 0 auto;
   display:block;
 }
 
-.bottom-logo{
+/* ---------Main Section----------- */
+.card img{
   display: block;
-  margin:8rem auto 0 3rem;
+  width:8rem;
+  margin:7rem auto 3rem;
 }
 
-/* -----Footer------ */
-
-.info p{
-  text-align: left;
+.card h1{
+  margin-top:3rem;
+}
+#security{
+  width:6rem;
+}
+.productive{
+  display:block;
   width:70%;
-  margin-left: 3rem;
+  margin:6rem auto;
+}
+
+.productive-div p{
+  text-align: left;
+}
+
+
+.works{
+  color:hsl(176, 68%, 64%);
+  font-family: Raleway,sans-serif;
+  margin-left: 2rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2rem;
+  text-decoration: none;
+
+
+}
+
+.arrow{
+  display:inline;
+  width:1.5rem;
+  position: relative;
+  top:.4rem;
+  left:-.2rem;
+
+}
+
+hr{
+width:10rem;
+margin-left: 1.8rem;
+border-color:hsl(176, 68%, 64%);
+}
+
+/* --------Testimonials-------- */
+
+
+.testimonials{
+  position: relative;
+  margin:7rem auto 0 auto;
+  background-color: hsl(219, 30%, 18%);
+  width:65%;
+  padding:1rem 2rem;
+  border-radius:10px;
+
+}
+
+
+
+.testimonials p{
+  font-size: .8rem;
+  font-weight: 200;
+  text-align: left;
+  padding:0;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+#quotes{
+  width:2rem;
+  position: absolute;
+  bottom:11rem;
+  left:0rem;
+
+}
+
+.profile-pic{
+
+  width:3rem;
+  float:left;
+  border-radius: 90px;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+
+
+}
+
+.testimonials h3,h4{
+  text-align: left;
+  margin:0;
+  padding:0;
+  margin-bottom:.3rem;
+  margin-top: .5rem;
+
+
+}
+
+.testimonials h3{
+  font-size: .8rem;
+  letter-spacing: .1rem;
+
+}
+
+.testimonials h4{
+  font-size: .8rem;
+  font-weight: 200;
+}
+
+/* --------CTA-------- */
+
+.cta{
+  background-color: hsl(217, 28%, 15%);
+  width:85%;
+  margin: 10rem auto 6rem auto;
+  padding: 2rem 0;
+  border-radius: 20px;
+}
+
+.cta h2{
   font-size: 1.4rem;
 }
 
-.bottom-logo{
-  width:12rem;
+.cta p{
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
 
-.cta-icon{
-  display:block;
-  float: left;
-  position:relative;
-  top:.5rem;
-  left:2rem;
+  .email-btn{
+    width:16rem;
+    font-size: 1rem;
+    background-color: white;
+    color:lightgrey;
+    padding: 1rem;
+    border-style: none;
+    border-radius: 40px;
+    margin:2rem auto 0 auto;
+    display:block;
+    text-align: left;
+  }
+
+
+/* --------Footer-------- */
+
+
+  .grid{
+  display: grid;
+  grid-template-rows:4fr 1fr 1fr;
+  grid-template-columns:1fr 16fr;
+  margin-left: 2rem;
+  margin-bottom:5rem;
+
 }
+
+.bottom-logo{
+  margin-left: 1rem;
+}
+
+.grid p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.bottom-logo{
+  display:block;
+  margin-left: 3rem;
+  margin-bottom: 2.5rem;
+  width:15rem;
+}
+
+
 
 .location{
-  position: relative;
-  top:1.9rem;
+  grid-area:1/2/2/3;
+
 }
 
-.info{
-  margin-bottom:8rem;
+.location-icon{
+  grid-area:1/1/2/2;
+  margin-top:1.8rem;
+  margin-right: 1rem;
 }
 
-.about{
-  font-family: Raleway,sans-serif;
-  font-size: 1.6rem;
+.phone-icon{
+  grid-area:2/1/3/2;
 
+
+}
+
+.email-icon{
+  grid-area:3/1/4/2;
+}
+
+.phone{
+  grid-area:2/2/3/3;
+}
+
+span{
+  color:white;
+  display:block;
+  margin-left:2rem;
+}
+
+footer p{
+  text-align: left;
 }
 
 .about li{
-  margin-top: 2rem;
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
 }
 
-.about-bottom{
-  margin-top:5rem;
-  margin-bottom: 5rem;
-
+.contact{
+  margin-top: 4rem;
 }
 
 .social-icons{
   color:white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
+  margin-top: 5rem;
 }
+
+
 
  .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(176, 68%, 64%); }
-
-  /* ---------Desktop Design--------- */
-
-  @media only screen and (min-width:600px){
-    .logo{
-
-
-
-
-
-
-    }
-
-     .nav-links{
-      display:flex;
-      justify-content: space-around;
-
-
-
-
-
-
-
-
-    }
-
-    .nav-item{
-    flex:1 0;
-
-
-    }
-
-    .nav-item a{
-
-
-    }
-  }
