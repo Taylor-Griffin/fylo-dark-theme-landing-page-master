@@ -182,7 +182,7 @@ border-color:hsl(176, 68%, 64%);
 #quotes{
   width:2rem;
   position: absolute;
-  bottom:11rem;
+  bottom:0rem;
   left:0rem;
 
 }
@@ -392,12 +392,20 @@ footer p{
 
 .cta button{
   display: inline-block;
+  /* margin: 0; */
+
+}
+
+
+.buttons{
+  margin:0 auto;
+  display: flex;
 }
 
 .email-btn{
-  width:32rem;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  width:37rem;
+  margin-right: .5rem;
+
 }
 
 
