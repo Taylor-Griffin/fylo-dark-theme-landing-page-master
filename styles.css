@@ -181,9 +181,9 @@ border-color:hsl(176, 68%, 64%);
 
 #quotes{
   width:2rem;
-  position: absolute;
-  bottom:0rem;
-  left:0rem;
+  position: relative;
+  bottom:2.5rem;
+  left:-2rem;
 
 }
 
@@ -389,7 +389,11 @@ footer p{
 }
 
 #quotes{
-  bottom:13rem;
+  width:2rem;
+  position: relative;
+  bottom:2.5rem;
+  left:-1rem;
+
 }
 
 .cta button{
